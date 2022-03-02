@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>lesson_10</title>
+    </head>
+    <body>
+        <!--TODO скорее всего ошибка есть на 298 строке так как эксперементировал с БЭМ микс для освобождения имени-->
+        <!-- ? Возник вопрос. Так как половина кнопок ,которые относятся вроде как к одному типу, имеет разные длинны, возникает вопрос что с этим делать? Каждой кнопке свой класс задать или........??? -->
+        <div class="wrapper">
+            <header>
+                <div class="logotype">
+                    <!--? логотип наверное через image-->
+                    <div class="logotype__box">
+                        <picture>
+                            <img src="#" alt="404" class="logotype__image">
+                        </picture>
+                    </div>
+                    <div class="menu">
+                        <a href="#" class="menu__link">About us</a>
+                        <a href="#" class="menu__link">Courses</a>
+                        <a href="#" class="menu__link">Events</a>
+                        <a href="#" class="menu__link">Blog</a>
+                        <a href="#" class="menu__link">Contacts</a>
+                    </div>
+                    <div class="big-button">
+                        <a href="#" class="big-button__link">Get consultation</a>
+                    </div>
+                    <div class="login-register">
+                        <a href="#" class="login-register__link">Log in/register</a>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="enjoy-styding">
+                    <div class="image">
+                        <picture>
+                            <img src="#" alt="404" class="image__enjoy">
+                        </picture>
+                    </div>
+                    <div class="enjoy-styding__container">
+                        <a href="#" class="enjoy-styding__link"><img src="#"
+                                alt="404"
+                                class="button-play__round-button"></a>
+                    </div>
+                    <h1 class="enjoy-styding__main-tittle">Enjoy studying
+                        with Createx Online Courses</h1>
+                    <div class="big-button">
+                        <a href="#" class="big-button__link">Explore Courses</a>
+                    </div>
+                    <div class="small-button">
+                        <a href="#" class="small-button__link">About us</a>
+                    </div>
+                    <ul class="statistic">
+                        <!-- делаем li display: inline и ТА ДАААА -->
+                        <li class="statictics__list"></li>
+                        <li class="statictics__list"></li>
+                        <li class="statictics__list"></li>
+                        <li class="statictics__list"></li>
+                    </ul>
+                </div>
+                <div class="who-we-are">
+                    <div class="who-we-are__container">
+                        <div class="who-we-are__image">
+                            <img src="#" alt="404" class="who-we-are__picture">
+                        </div>
+                        <div class="who-we-are__content">
+                            <div class="block-name">
+                                <div class="block-name__sub-title">
+                                    <p>Who we are</p>
+                                </div>
+                                <h2 class="block-name__tittle">Why Createx?</h2>
+                            </div>
+                            <ul class="list">
+                                <li class="list__item">A fermentum in morbi
+                                    pretium aliquam adipiscing donec tempus.</li>
+                                <li class="list__item">Vulputate placerat amet
+                                    pulvinar lorem nisl.</li>
+                                <li class="list__item">Consequat feugiat
+                                    habitant gravida quisque elit bibendum id
+                                    adipiscing sed.</li>
+                                <li class="list__item">Etiam duis lobortis in
+                                    fames ultrices commodo nibh.</li>
+                                <li class="list__item">Tincidunt sagittis neque
+                                    sem ac eget.</li>
+                                <li class="list__item">Ultricies amet justo et
+                                    eget quisque purus vulputate dapibus tortor.</li>
+                            </ul>
+                            <div class="regular-button">
+                                <a href="#" class="regular-button__link">More
+                                    about us </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ready-to-learn">
+                    <div class="block-name">
+                        <div class="block-name__sub-title">Ready to learn?</div>
+                        <h2 class="block-name__title">Featured Courses</h2>
+                    </div>
+                    <div class="big-button">
+                        <a href="#" class="big-button__link
+                            big-button__link_opacity">View all courses</a>
+                    </div>
+                    <div class="ready-to-learn__content">
+                        <div class="box-intensive">
+                            <div class="box-intensive__picture">
+                                <img src="#" alt="404"
+                                    class="box-intensive__picture">
+                            </div>
+                            <p class="box-intensive__direction">Marketing</p>
+                            <h3 class="box-intensive__name">The Ultimate Google
+                                Ads Training Course</h3>
+                            <p class="box-intensive__price-and-autor">$100
+                                by Jerome Bell</p>
+                        </div>
+                        <div class="box-intensive">
+                            <div class="box-intensive__picture">
+                                <img src="#" alt="404"
+                                    class="box-intensive__picture">
+                            </div>
+                            <p class="box-intensive__direction">HR & Recruting</p>
+                            <h3 class="box-intensive__name">HR Management and
+                                Analytics</h3>
+                            <p class="box-intensive__price-and-autor">$200
+                                by Leslie Alexander Li</p>
+                        </div>
+                        <div class="box-intensive">
+                            <div class="box-intensive__picture">
+                                <img src="#" alt="404"
+                                    class="box-intensive__picture">
+                            </div>
+                            <p class="box-intensive__direction">Management</p>
+                            <h3 class="box-intensive__name">Business Development
+                                Management</h3>
+                            <p class="box-intensive__price-and-autor">$400
+                                by Dianne Russell</p>
+                        </div>
+                        <div class="box-intensive">
+                            <div class="box-intensive__picture">
+                                <img src="#" alt="404"
+                                    class="box-intensive__picture">
+                            </div>
+                            <p class="box-intensive__direction">Management</p>
+                            <h3 class="box-intensive__name">Prduct Management
+                                Fundamentals</h3>
+                            <p class="box-intensive__price-and-autor">$480 by
+                                Marvin McKinney</p>
+                        </div>
+                        <div class="box-intensive">
+                            <div class="box-intensive__picture">
+                                <img src="#" alt="404"
+                                    class="box-intensive__picture">
+                            </div>
+                            <p class="box-intensive__direction">Marketing</p>
+                            <h3 class="box-intensive__name">Brand Management &
+                                PR Communications</h3>
+                            <p class="box-intensive__price-and-autor">$530 by
+                                Kristin Watson</p>
+                        </div>
+                        <div class="box-intensive">
+                            <div class="box-intensive__picture">
+                                <img src="#" alt="404"
+                                    class="box-intensive__picture">
+                            </div>
+                            <p class="box-intensive__direction">Design</p>
+                            <h3 class="box-intensive__name">Graphic Design Basic</h3>
+                            <p class="box-intensive__price-and-autor">$500 by
+                                Guy Hawkins</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-benefits">
+                    <div class="block-name">
+                        <!--Знаю что можно и обернуть, но пока не пришло в голову как только если div.-->
+                        <div class="block-name__sub-title
+                            block-name__sub-title_text-center">Our benefits</div>
+                        <h2 class="block-name__title
+                            block-name__title_text-center">That’s how we do it</h2>
+                    </div>
+                    <div class="our-benefits__content">
+                        <div class="container"> <!--  можно через список, но мне интересно что же из такого может получится-->
+                            <a href="#" class="container__flex-button">Experienced
+                                Tutors</a>
+                            <a href="#" class="container__flex-button">Feedback
+                                & Support</a>
+                            <a href="#" class="container__flex-button">24/7
+                                Online Library</a>
+                            <a href="#" class="container__flex-button">Community</a>
+                        </div>
+                        <div class="our-benefits__text">
+                            <h3 class="our-benefits__tittle">Only practicing
+                                tutors</h3>
+                            <p class="our-benefits__text">Urna nisi, arcu cras
+                                nunc. Aenean quam est lobortis mi non fames
+                                dictum suspendisse. Morbi mauris cras massa ut
+                                dolor quis sociis mollis augue. Nunc, sodales
+                                tortor sit diam mi amet massa. Fermentum diam
+                                diam sociis vestibulum. Nulla nisl accumsan, id
+                                dignissim massa ut amet. Amet enim, nisi tempus
+                                vehicula.</p>
+                        </div>
+                        <div class="our-benefits__picture">
+                            <img src="#" alt="404"
+                                class="our-benefics__picture">
+                        </div>
+                    </div>
+                </div>
+                <div class="our-events">
+                    <div class="our-events__container">
+                        <div class="block-name">
+                            <div class="block-name__sub-title
+                                block-name__sub-title_text-center">Our Events</div>
+                            <h2 class="block-name__title
+                                block-name__title_text-center">Lectures &
+                                workshops</h2>
+                        </div>
+                        <div class="schedule">
+                            <div class="schedule__kalendar">
+                                <!--? Кажется потом сможем сгрупировать гридом наподобие { display:grid; grid-template-columns: min-content   1fr  min-content подсмотрел у Вадима Макеева-->
+                                <!--TODO может число будет img, но мне показалось наврядли будут в админке с этим мучаться-->
+                                <p class="schedule__date">05</p>
+                                <p class="schedule__month">August </p>
+                                <p class="schedule__time">11:00 – 14:00</p>
+                                <div class="schedule__short-information">
+                                    <p class="schedule__info">Formation of the
+                                        organizational structure of the company
+                                        in the face of uncertainty.</p>
+                                </div>
+                                <p class="schedule__kind-of-lesson">Onine
+                                    master-class</p>
+                                <!--Получается при :hover на кнопку она будет подсвечиваться, а в статичном режиме прозрачная?-->
+                                <div class="small-button">
+                                    <a href="#" class="small-button__link">View
+                                        more</a>
+                                </div>
+                            </div>
+                            <div class="schedule__kalendar">
+                                <p class="schedule__date">16</p>
+                                <p class="schedule__month">july</p>
+                                <p class="schedule__time">11:00 – 12:30</p>
+                                <div class="schedule__short-information">
+                                    <p class="schedule__info">Building a
+                                        customer service department. Best
+                                        Practices.</p>
+                                </div>
+                                <p class="schedule__kind-of-lesson">Onine
+                                    lecture</p>
+                                <div class="small-button">
+                                    <a href="#" class="small-button__link">View
+                                        more</a>
+                                </div>
+                            </div>
+                            <div class="schedule__kalendar">
+                                <p class="schedule__date">24</p>
+                                <p class="schedule__month">july </p>
+                                <p class="schedule__time">10:00 – 13:00</p>
+                                <div class="schedule__short-information">
+                                    <p class="schedule__info">How to apply
+                                        methods of speculative design in
+                                        practice. Worldbuilding prototyping.</p>
+                                </div>
+                                <p class="schedule__kind-of-lesson">Onine
+                                    workshop</p>
+                                <div class="small-button">
+                                    <a href="#" class="small-button__link">View
+                                        more</a>
+                                </div>
+                            </div>
+                            <p class="our-events__item">Do you want more?</p>
+                            <div class="big-button">
+                                <a href="" class="big-button__link">Explore all
+                                    events</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <div class="certificate__container">
+                        <div class="block-name">
+                            <div class="block-name__sub-title">Createx
+                                Certificate</div>
+                            <h2 class="block-name__title">Your expertise will be
+                                confirmed</h2>
+                        </div>
+                        <p class="sertificate__short-information">We are
+                            accredited by international professional
+                            organizations and institutes:</p>
+                        <img src="#" alt="404" class="certificate__logo">
+                        <img src="#" alt="404" class="certificate__logo">
+                        <img src="#" alt="404" class="certificate__logo">
+                        <img src="#" alt="404" class="certificate__main">
+                    </div>
+                </div>
+                <div class="tutors">
+                    <!--!Решил попробовать микс с освобождением имени-->
+                    <div class="tutors__container">
+                        <div class="button-left-right">
+                            <a href="#" class="button-left-right__previous"><img
+                                    src="#" alt="404"></a>
+                            <a href="#" class="button-left-right__next"><img
+                                    src="#" alt="404"></a>
+                        </div>
+                        <div class="block-name__sub-title">
+                            Best tutors are all here
+                        </div>
+                        <h2 class="block-name__title">Meet our team</h2>
+                    </div>
+                    <!-- !HERE! -->
+                    <div class="tutors__container container-tutors">
+                        <div class="container-tutors__list-of-tutor">
+                            <img src="#" alt="404"
+                                class="container-tutots__image">
+                            <p class="container-tutors__name"></p>
+                        </div>
+                        <div class="container-tutors__list-of-tutor">
+                            <img src="#" alt="404"
+                                class="container-tutots__image">
+                            <p class="container-tutors__name"></p>
+                        </div>
+                        <div class="container-tutors__list-of-tutor">
+                            <img src="#" alt="404"
+                                class="container-tutots__image">
+                            <p class="container-tutors__name"></p>
+                        </div>
+                        <div class="container-tutors__list-of-tutor">
+                            <img src="#" alt="404"
+                                class="container-tutots__image">
+                            <p class="container-tutors__name"></p>
+                        </div>
+                        <!-- Я не знаю пока как делать перелистывания, мог бы надовлять ещё :)-->
+                    </div>
+                </div>
+                <div class="feedback">
+                    <div class="block-name">
+                        <div class="block-name__sub-title
+                            block-name__sub-title_text-center">TESTIMONIALS</div>
+                        <h2 class="block-name__title
+                            block-name__title_text-center">What our students say</h2>
+                    </div>
+                    <div class="feedback__container">
+                        <div class="feedback__box">
+                            <div class="button-left-right"> <!--? Или здесь делать через ::before ::after применяя к box ? -->
+                                <a href="#" class="button-left-right__previous"><img
+                                        src="#" alt="404"></a>
+                                <a href="#" class="button-left-right__next"><img
+                                        src="#" alt="404"></a>
+                            </div>
+                            <!-- думаю красные ковычки нужно делать через ::before-->
+                            <div class="feedback__item">
+                                <!--? ну или через <p> ?-->
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. At eligendi reiciendis
+                                reprehenderit beatae numquam dolore harum quidem
+                                sit iure maiores sed natus cum, nostrum labore
+                                quod! Minus possimus harum accusamus!
+                            </div>
+                            <div class="feedback__signature">
+                                <img src="#" alt="404" class="feedback__image">
+                                <p class="feedback__name">Eleanor Pena</p>
+                                <p class="feedback__profession">Position, Course</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-blog">
+                    <div class="our-blog__container">
+                        <div class="block-name">
+                            <div class="block-name__sub-title">Our blog</div>
+                            <h2 class="block-name__title">Latest posts</h2>
+                        </div>
+                        <div class="regular-button">
+                            <a href="#" class="regular-button__link">Go to blog</a>
+                        </div>
+                        <!-- Наверное тоже через грид ссылки на статьи-->
+                        <div class="our-blog__box">
+                            <img src="#" alt="404" class="our-blog__image"> <!-- Календарь и часы через ::before-->
+                            <h3 class="our-blog__tittle">#</h3>
+                            <div class="our-blog__subtittle"></div>
+                            <a href="#" class="our-blog__link"></a>
+                        </div>
+                        <div class="our-blog__box">
+                            <img src="#" alt="404" class="our-blog__image"> <!-- Календарь и часы через ::before-->
+                            <h3 class="our-blog__tittle">#</h3>
+                            <div class="our-blog__subtittle"></div>
+                            <a href="#" class="our-blog__link"></a>
+                        </div>
+                        <div class="our-blog__box">
+                            <img src="#" alt="404" class="our-blog__image"> <!-- Календарь и часы через ::before-->
+                            <h3 class="our-blog__tittle">#</h3>
+                            <div class="our-blog__subtittle"></div>
+                            <a href="#" class="our-blog__link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe">
+                    <div class="block-name">
+                        <div class="block-name__sub-title">Don’t miss anything</div>
+                        <h2 class="block-name__title">Subscribe to the Createx
+                            School announcements</h2>
+                    </div>
+                    <div class="subscribe__container">
+                        <div class="subcribe__list-search">
+                            <h5>Я не знаю как это описать</h5>
+                        </div>
+                    </div>
+                    <div class="regular-button">
+                        <a href="#" class="regular-button__link">Subscribe</a>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="footer">
+                    <div class="footer__conteiner">
+                        <div class="footer__icon">
+                            <img src="#" alt="404" class="footer__logotype">
+                        </div>
+                        <div class="footer__text">Createx Online School is a
+                            leader
+                            in online studying. We have lots of courses and
+                            programs
+                            from the main market experts. We provide relevant
+                            approaches to online learning, internships and
+                            employment in the largest companies in the country.
+                        </div>
+                        <div class="emblem"> <!--либо попробовать через грид разложить значкт сайтов ну или по отдельности делать и позиционнировать-->
+                            <img src="#" alt="404" class="emblem__facebook">
+                            <img src="#" alt="404" class="emblem__twitter">
+                            <img src="#" alt="404" class="emblem__youtube">
+                            <img src="#" alt="404" class="emblem__telegram">
+                            <img src="#" alt="404" class="emblem__instagram">
+                            <img src="#" alt="404" class="emblem__in">
+                        </div>
+                        <ul class="site-map">
+                            <li class="site-map__list"><a href="#"
+                                    class="site-map__link"></a></li>
+                            <li class="site-map__list"><a href="#"
+                                    class="site-map__link"></a></li>
+                            <li class="site-map__list"><a href="#"
+                                    class="site-map__link"></a></li>
+                            <li class="site-map__list"><a href="#"
+                                    class="site-map__link"></a></li>
+                            <li class="site-map__list"><a href="#"
+                                    class="site-map__link"></a></li>
+                        </ul>
+                        <ul class="courses">
+                            <li class="courses__list"><a href="#"
+                                    class="courses__link"></a></li>
+                            <li class="courses__list"><a href="#"
+                                    class="courses__link"></a></li>
+                            <li class="courses__list"><a href="#"
+                                    class="courses__link"></a></li>
+                            <li class="courses__list"><a href="#"
+                                    class="courses__link"></a></li>
+                            <li class="courses__list"><a href="#"
+                                    class="courses__link"></a></li>
+                        </ul>
+                        <ul class="contact">
+                            <li class="contact__list"><a href="#"
+                                    class="contact__link"></a></li>
+                            <li class="contact__list"><a href="#"
+                                    class="contact__link"></a></li>
+                        </ul>
+                    </div>
+                    <div class="sign-up">
+                        <div class="sign-up__conteiner">
+                            <h2 class="sign-up__tittle">#</h2>
+                            <div class="sign-up__e-mail">
+                                Тут нужно что то отослать но у меня лапки
+                            </div>
+                            <p class="sign-up__text">*Subscribe to our
+                                newsletter to receive communications and early
+                                updates from Createx SEO Agency.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
